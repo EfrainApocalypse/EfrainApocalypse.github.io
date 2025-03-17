@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1f1f1f;          
+        }
+
+        h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        label {
+            color: white;
+        }
+        .foto {
+            width: 500px;
+            height: 500px;
+            background-color: #1f1f1f;
+        }
+        div {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <label>Insira um numero:</label><br>
+    <input type="text" id="input">
+    <button type="button" onclick="getDataDragonB()">Enviar</button><br><br>
+
+    <label>nome:</label>
+    <br><div class="campos" id="nome"></div><br><br>
+
+    <label>descrição (ESPANHOL APENAS):</label>
+    <br><div class="campos" id="description"></div><br><br>
+
+    <label>Ki máximo:</label>
+    <br><div class="campos" id="ki"></div><br><br>
+
+    <label>raça:</label>
+    <br><div class="campos" id="race"></div><br><br>
+
+    <label>planeta:</label>
+    <br><div class="foto" id="planet"></div><br><br>
+
+    <br><div id="imagem" class="foto"></div>
+
+    <script>
+        async function getDataDragonB() {
+            const url2 = "https://dragonball-api.com/api/characters/"+document.getElementById("input").value;
+            try {
+                const response2 = await fetch(url2);
+            if (!response2.ok) {
+                throw new Error(`Response status: ${response2.status}`);
+            }
+            const json2 = await response2.json();
+
+            console.log(json2);
+
+            document.getElementById("nome").innerHTML = json2.name;
+            document.getElementById("description").innerHTML = json2.description;
+            document.getElementById("ki").innerHTML = json2.maxKi;
+            document.getElementById("race").innerHTML = json2.race;
+
+            var img = document.createElement("img");
+            img.src = json2.image;
+            var src = document.getElementById("imagem");
+            src.innerHTML = "";
+            src.appendChild(img);
+
+            var img = document.createElement("img");
+            img.src = json2.originPlanet.image;
+            var src = document.getElementById("planet");
+            src.innerHTML = "";
+            src.appendChild(img);
+                
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+    </script>
+</body>
+</html>
