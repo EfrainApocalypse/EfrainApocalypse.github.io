@@ -24,6 +24,18 @@
       "nome": "Croissant",
       "preco": 7.99,
       "imagem": "https://ogimg.infoglobo.com.br/in/21476861-6b9-6af/FT1086A/INFOCHPDPICT000065884626.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Batata Frita",
+      "preco": 14.50,
+      "imagem": "https://gastronomiacarioca.zonasul.com.br/wp-content/uploads/2023/05/batata_frita_destaque_ilustrativo_zona_sul.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "X_Ratão",
+      "preco": 24.43,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NM0wVEt4HcJ5k8YcKu3NhSBcPqSNldrqAg&s"
     }
   ]
 }
