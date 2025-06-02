@@ -1,0 +1,29 @@
+{
+  "nomeLanchonete": "Tia Van Lanches",
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Bolo de cenoura",
+      "preco": 37.50,
+      "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2018/08/bolo-de-cenoura-recheado.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Fatia de Pizza",
+      "preco": 12.99,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_nFmsyewn379s2qHoFFX1ZmOA95TmV2r6w&s"
+    },
+    {
+      "id": 3,
+      "nome": "Coxinha",
+      "preco": 6.99,
+      "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwXJlS1oTk7FCDcK4PaLrZgMm6KVVxp8C13UY-qr74lDm1nBQWYM0SYShL_a6_m7l7w8kDpe72KmrTXGXCwAxkZ7xWUN2SWe6h_BBsg2k"
+    },
+    {
+      "id": 4,
+      "nome": "Croissant",
+      "preco": 7.99,
+      "imagem": "https://ogimg.infoglobo.com.br/in/21476861-6b9-6af/FT1086A/INFOCHPDPICT000065884626.jpg"
+    }
+  ]
+}
