@@ -1,0 +1,36 @@
+{
+  "livros": [
+    { "id": 1, "titulo": "Harry Potter e a Pedra Filosofal", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 2, "titulo": "Harry Potter e a Câmara Secreta", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 3, "titulo": "Harry Potter e o Prisioneiro de Azkaban", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 4, "titulo": "Harry Potter e o Cálice de Fogo", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 5, "titulo": "Harry Potter e a Ordem da Fênix", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 6, "titulo": "Harry Potter e o Enigma do Príncipe", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 7, "titulo": "Harry Potter e as Relíquias da Morte - Parte 1", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 8, "titulo": "Harry Potter e as Relíquias da Morte - Parte 2", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 9, "titulo": "Animais Fantásticos e Onde Habitam", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+    { "id": 10, "titulo": "Os Contos de Beedle, o Bardo", "autor": "J.K. Rowling", "categoria": "Harry Potter" },
+
+    { "id": 11, "titulo": "Duna", "autor": "Frank Herbert", "categoria": "Ficção Científica" },
+    { "id": 12, "titulo": "Neuromancer", "autor": "William Gibson", "categoria": "Ficção Científica" },
+    { "id": 13, "titulo": "Fundação", "autor": "Isaac Asimov", "categoria": "Ficção Científica" },
+    { "id": 14, "titulo": "Eu, Robô", "autor": "Isaac Asimov", "categoria": "Ficção Científica" },
+    { "id": 15, "titulo": "2001: Uma Odisseia no Espaço", "autor": "Arthur C. Clarke", "categoria": "Ficção Científica" },
+    { "id": 16, "titulo": "O Fim da Infância", "autor": "Arthur C. Clarke", "categoria": "Ficção Científica" },
+    { "id": 17, "titulo": "Solaris", "autor": "Stanisław Lem", "categoria": "Ficção Científica" },
+    { "id": 18, "titulo": "Encontro com Rama", "autor": "Arthur C. Clarke", "categoria": "Ficção Científica" },
+    { "id": 19, "titulo": "O Jogo do Exterminador", "autor": "Orson Scott Card", "categoria": "Ficção Científica" },
+    { "id": 20, "titulo": "A Mão Esquerda da Escuridão", "autor": "Ursula K. Le Guin", "categoria": "Ficção Científica" },
+
+    { "id": 21, "titulo": "O Pequeno Príncipe", "autor": "Antoine de Saint-Exupéry", "categoria": "Infantil" },
+    { "id": 22, "titulo": "Onde Vivem os Monstros", "autor": "Maurice Sendak", "categoria": "Infantil" },
+    { "id": 23, "titulo": "O Grúfalo", "autor": "Julia Donaldson", "categoria": "Infantil" },
+    { "id": 24, "titulo": "A Lagarta Muito Comilona", "autor": "Eric Carle", "categoria": "Infantil" },
+    { "id": 25, "titulo": "Chapeuzinho Vermelho", "autor": "Irmãos Grimm", "categoria": "Infantil" },
+    { "id": 26, "titulo": "João e o Pé de Feijão", "autor": "Conto Popular", "categoria": "Infantil" },
+    { "id": 27, "titulo": "Os Três Porquinhos", "autor": "Conto Popular", "categoria": "Infantil" },
+    { "id": 28, "titulo": "Cachinhos Dourados e os Três Ursos", "autor": "Conto Popular", "categoria": "Infantil" },
+    { "id": 29, "titulo": "O Patinho Feio", "autor": "Hans Christian Andersen", "categoria": "Infantil" },
+    { "id": 30, "titulo": "Alice no País das Maravilhas", "autor": "Lewis Carroll", "categoria": "Infantil" }
+  ]
+}
